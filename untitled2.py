@@ -24,8 +24,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
 from sklearn.neural_network import MLPClassifier
+# In this code part we wrote the library and pacakge that we used. We should make import them without this code part our codes doesn't work.
 
-data = pd.read_csv("survey lung cancer.csv")
+data = pd.read_csv("survey lung cancer.csv") #I converted my file to upload there.
 
 data
 
